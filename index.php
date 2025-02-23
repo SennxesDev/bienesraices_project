@@ -1,6 +1,6 @@
 <?php 
     $inicio = true;
-    include 'C:\xampp\htdocs\bienesraices_project\templates\header.php';   
+    include 'includes\templates\header.php';
 ?>
 
     <main class="contenedor seccion">
@@ -201,5 +201,5 @@
     </div>
 
 <?php 
-    include 'C:\xampp\htdocs\bienesraices_project\templates\footer.php';   
+   include 'includes\templates\footer.php';   
 ?>

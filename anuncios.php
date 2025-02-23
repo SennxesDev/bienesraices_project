@@ -1,4 +1,4 @@
-<?php include 'C:\xampp\htdocs\bienesraices_project\templates\header.php'; ?>
+<?php include 'includes\templates\header.php'; ?>
 
     <main class="contenedor seccion">
 
@@ -208,5 +208,5 @@
 
  
 <?php 
-    include 'C:\xampp\htdocs\bienesraices_project\templates\footer.php';   
+   include 'includes\templates\footer.php';   
 ?>

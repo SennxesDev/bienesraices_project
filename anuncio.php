@@ -1,4 +1,4 @@
-<?php include 'C:\xampp\htdocs\bienesraices_project\templates\header.php'; ?>
+<?php include 'includes\templates\header.php'; ?>
 
     <main class="contenedor seccion contenido-centrado">
         <h1>Casa en Venta frente al bosque</h1>
@@ -33,5 +33,5 @@
     </main>
 
 <?php 
-    include 'C:\xampp\htdocs\bienesraices_project\templates\footer.php';   
+    include 'includes\templates\footer.php';   
 ?>

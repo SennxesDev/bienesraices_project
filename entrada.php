@@ -1,4 +1,4 @@
-<?php include 'C:\xampp\htdocs\bienesraices_project\templates\header.php'; ?>
+<?php include 'includes\templates\header.php'; ?>
 
     <main class="contenedor seccion contenido-centrado">
         <h1>Guía para la decoración de tu hogar</h1>
@@ -22,5 +22,5 @@
 
 
 <?php 
-    include 'C:\xampp\htdocs\bienesraices_project\templates\footer.php';   
+   include 'includes\templates\footer.php';   
 ?>
