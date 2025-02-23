@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienes Raices</title>
-    <link rel="stylesheet" href="build/css/app.css">
-</head>
-<body>
-    
+    <?php
+$rutaBase = obtenerRutaBase();
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienes Raíces</title>
+    <link rel="stylesheet" href="<?php echo $rutaBase; ?>build/css/app.css">
+
+      
     <header class="header <?php echo $inicio ? 'inicio' : ''; ?>">
         <div class="contenedor contenido-header">
             <div class="barra">
@@ -32,3 +40,5 @@
             </div> <!--.barra-->
         </div>
     </header>
+</head>
+<body>
